@@ -4,7 +4,7 @@ set -euo pipefail
 
 GH_REPO="https://github.com/go-swagger/go-swagger"
 TOOL_NAME="go-swagger"
-TOOL_TEST="swagger --help"
+TOOL_TEST="swagger version"
 
 fail() {
   echo -e "asdf-$TOOL_NAME: $*"
